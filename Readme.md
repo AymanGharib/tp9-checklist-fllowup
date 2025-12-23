@@ -12,7 +12,8 @@ ps aux | grep snort
 
 **Résultat:**
 
-![Q1 Screenshot](screenhots\q1.png)
+![Q1 Screenshot](screenhots/q1.png)
+
 
 **Explication:**
 
@@ -36,7 +37,7 @@ cat /etc/snort/snort.conf | grep interface
 
 **Résultat:**
 
-![Q2 Screenshot](screenhots\q2.png)
+![Q2 Screenshot](screenhots/q2.png)
 
 **Explication:**
 
@@ -59,7 +60,7 @@ wc -l /var/log/snort/alert
 
 **Résultat:**
 
-![Q3 Screenshot](screenhots\q3.png)
+![Q3 Screenshot](screenhots/q3.png)
 
 **Explication:**
 
@@ -78,7 +79,7 @@ iptables -L FORWARD -v -n
 
 **Résultat:**
 
-![Q4 Screenshot](screenhots\q4.png)
+![Q4 Screenshot](screenhots/q4.png)
 
 **Explication:**
 
@@ -101,7 +102,7 @@ ping -c 4 209.165.202.133
 
 **Résultat:**
 
-![Q5 Screenshot](screenhots\q5.png)
+![Q5 Screenshot](screenhots/q5.png)
 
 **Explication:**
 
@@ -130,7 +131,7 @@ tcpdump -r nimda.download.pcap | head -n 3
 
 **Résultat:**
 
-![Q6 Screenshot](screenhots\q6.png)
+![Q6 Screenshot](screenhots/q6.png)
 
 **Explication:**
 
@@ -174,7 +175,7 @@ iptables -S
 
 **Résultat:**
 
-![Q8 Screenshot](screenhots\q8.png)
+![Q8 Screenshot](screenhots/q8.png)
 
 **Explication:**
 
@@ -289,7 +290,7 @@ tail -n 1 /var/log/messages
 
 **Résultat:**
 
-![Q12 Screenshot](screenhots\q12.png)
+![Q12 Screenshot](screenhots/q12.png)
 
 **Informations dans les logs:**
 ```
